@@ -1,0 +1,126 @@
+@charset"UTF-8"; /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+
+/* style.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+* {
+  padding: 0;
+  margin: 0;
+}
+p{
+  font-weight:bold ;
+}
+.max{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.wrapper{
+  background: url('/img/background2.jpg') no-repeat ;
+  background-size:2000px 1000px;
+  height: 100vh;
+   width: 1500px;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar {
+  height: 70px;
+  width: 100%;
+  background: rgb(94, 184, 231);
+  font-weight:bold;
+}
+.logo{
+  width:150px;
+  height:60px;
+  padding:20px 50px;
+}
+.navbar ul{
+  float:right;
+  margin-right: 20px;
+}
+.navbar ul li{
+  list-style:none;
+  margin:0 8px;
+  display:inline-block;
+  line-height: 80px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: #f9f7f7;
+  font-size: 20px;
+  padding:6px 13px;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+  background: #a277dc;
+  border-radius:5px;
+  color: #0c2e6a;
+  transition:0.5s;
+}
+.wrapper,.center{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  user-select: none;
+}
+.center h1{
+  color: rgb(249, 247, 247);
+  font-size: 70px;
+  font-weight: bold;
+  width:900px;
+  text-align:center;
+  text-shadow: 2px 2px 2px #22dbf0;
+}
+.center h2{
+  color: #191818;
+  font-size: 70px;
+  font-weight: bold;
+  width:880px;
+  margin-top:10px;
+  text-align:center;
+  text-shadow: 2px 2px 2px #22dbf0;
+}
+.center .buttons{
+  margin:35px 280px;
+}
+.buttons button{
+  height:50px;
+  width:150px;
+  font-size:18px;
+  font-weight:bold;
+  color: rgb(94, 184, 231);
+  border:1px solid #5eb8e7;
+  outline:none;
+  cursor:pointer;
+  border-radius:25px;
+  transition:0.5s;
+}
+.buttons .btn{
+  margin-left:25px;
+}
+.buttons button:hover{
+  background: rgb(94, 108, 231);
+  color: black;
+}
+.passage{
+  background: url("/img/background3.jpg");
+  font-size:18px;
+  font-weight:bold;
+  color: rgb(94, 184, 231);
+  background-size:2000px 1000px;
+  height: 100vh;
+  width: 1500px;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+.passage h1{
+  line-height: 80px;
+  margin: auto;
+}
