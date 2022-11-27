@@ -20,7 +20,7 @@ p{
 
 }
 .wrapper{
-  background: url('/img/background2.jpg') no-repeat ;
+  background: url('../img/background2.jpg') no-repeat ;
   background-size:2000px 1000px;
   height: 100vh;
    width: 1500px;
@@ -37,7 +37,7 @@ p{
 .logo{
   width:150px;
   height:60px;
-  padding:20px 50px;
+  padding:10px 40px;
 }
 .navbar ul{
   float:right;
@@ -109,7 +109,7 @@ p{
   color: black;
 }
 .passage{
-  background: url("/img/background3.jpg");
+  background: url("../img/background3.jpg");
   font-size:18px;
   font-weight:bold;
   color: rgb(94, 184, 231);
